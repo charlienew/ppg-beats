@@ -1,5 +1,5 @@
-# `MSPTDFASTV1_BEAT_DETECTOR` - MSPTDfastv2 (v2.0) PPG beat detector.
-MSPTDFASTV1_BEAT_DETECTOR detects beats in a photoplethysmogram (PPG) signal
+# `MSPTDFASTV2_BEAT_DETECTOR` - MSPTDfastv2 (v2.0) PPG beat detector.
+MSPTDFASTV2_BEAT_DETECTOR detects beats in a photoplethysmogram (PPG) signal
 using a refinement of the 'Multi-Scale Peak and Trough Detection' beat detector
 
 ##  Inputs
@@ -13,7 +13,7 @@ using a refinement of the 'Multi-Scale Peak and Trough Detection' beat detector
 +   onsets : indices of detected pulse troughs (i.e. onsets)
     
 ##  Reference
-P. H. Charlton et al., 'The MSPTDfast photoplethysmography beat detection algorithm: Design, benchmarking, and open-source distribution,' Under Review, <URL TBC>
+P. H. Charlton et al., 'The MSPTDfast photoplethysmography beat detection algorithm: Design, benchmarking, and open-source distribution,' Physiological Measurement, <https://doi.org/10.1088/1361-6579/adb89e>
 
 ##  Author
 Peter H. Charlton

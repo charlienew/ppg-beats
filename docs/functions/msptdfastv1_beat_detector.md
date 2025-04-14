@@ -13,7 +13,7 @@ using a refinement of the 'Multi-Scale Peak and Trough Detection' beat detector
 +   onsets : indices of detected pulse troughs (i.e. onsets)
     
 ##  Reference
-P. H. Charlton et al., 'MSPTDfast: An Efficient Photoplethysmography Beat Detection Algorithm,' Computing in Cardiology, 2024; <URL TBC>
+P. H. Charlton et al., 'MSPTDfast: An Efficient Photoplethysmography Beat Detection Algorithm,' Computing in Cardiology, 2024; <https://cinc.org/archives/2024/pdf/CinC2024-045.pdf>
 
 ##  Author
 Peter H. Charlton

@@ -41,6 +41,7 @@ nav:
       - 'ims_beat_detector': './functions/ims_beat_detector.md'
       - 'msptd_beat_detector': './functions/msptd_beat_detector.md'
       - 'msptdfastv1_beat_detector': './functions/msptdfastv1_beat_detector.md'
+      - 'msptdfastv2_beat_detector': './functions/msptdfastv2_beat_detector.md'
       - 'pda_beat_detector': './functions/pda_beat_detector.md'
       - 'ppgpulses_beat_detector': './functions/ppgpulses_beat_detector.md'
       - 'pwd_beat_detector': './functions/pwd_beat_detector.md'

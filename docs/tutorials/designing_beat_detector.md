@@ -30,5 +30,5 @@ This tutorial demonstrates the processes undertaken to design MSPTDfast (v.2), w
 - Then, run further analyses using the following additional scripts (adjusting the file paths in the scripts to provide the paths to the files mentioned above):
    - To follow the design analysis: use `msptdfastv2_design.m`.
    - To follow the internal validation analysis: use `msptdfastv2_internal_validation.m`.
-   - To follow the benchmarking analysis: use `msptdfastv2_testing.m`. To generate the results for performance at different SNRs, you will need to set: `uParams.analysis.sig_qual_tools = {'accel'; 'ppgq'};' on line 152 of `assess_beat_detectors.m'. You will also require the [ppg-quality](https://ppg-quality.readthedocs.io/) toolbox.
-   - To produce the examples of PPG beat detection challenges (shown in Fig. 7 of the publication), use `make_plot_of_ppg_beat_detection_challenges_msptdfastv2.m'
+   - To follow the benchmarking analysis: use `msptdfastv2_testing.m`. To generate the results for performance at different SNRs, you will need to set: `uParams.analysis.sig_qual_tools = {'accel'; 'ppgq'};` on line 152 of `assess_beat_detectors.m`. You will also require the [ppg-quality](https://ppg-quality.readthedocs.io/) toolbox.
+   - To produce the examples of PPG beat detection challenges (shown in Fig. 7 of the publication), use `make_plot_of_ppg_beat_detection_challenges_msptdfastv2.m`
