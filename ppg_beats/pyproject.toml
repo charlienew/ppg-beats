@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ppg-beats"
+version = "0.1.0"
+description = "Python PPG beat detection library, ported from the MATLAB ppg-beats toolbox"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.9"
+authors = [
+    {name = "Peter H. Charlton"},
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "pywavelets>=1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "neurokit2",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
